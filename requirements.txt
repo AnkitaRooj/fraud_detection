@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+pytest
+streamlit
+mlflow
+dvc
+xgboost
+imblearn
+lightgbm
+catboost
+ipykernel
+dask==2023.8.0
+pyarrow==13.0.0

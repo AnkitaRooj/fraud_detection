@@ -1,0 +1,195 @@
+# =====================
+# LARGE DATA FILES
+# =====================
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.json
+data/
+datasets/
+processed_data/
+notebooks/processeddataset/
+
+# =====================
+# ML MODEL FILES
+# =====================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.pth
+*.pt
+*.bin
+models/
+
+# =====================
+# MLFLOW ARTIFACTS
+# =====================
+mlruns/
+mlartifacts/
+.mlflow/
+
+# =====================
+# VIRTUAL ENVIRONMENTS
+# =====================
+venv/
+env/
+valert/
+vfraud/
+.venv/
+
+# =====================
+# PYTHON
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =====================
+# JUPYTER NOTEBOOKS
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# OS
+# =====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =====================
+# LOGS
+cat > .gitignore << 'EOF'
+# =====================
+# LARGE DATA FILES
+# =====================
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.json
+data/
+datasets/
+processed_data/
+notebooks/processeddataset/
+
+# =====================
+# ML MODEL FILES
+# =====================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.pth
+*.pt
+*.bin
+models/
+
+# =====================
+# MLFLOW ARTIFACTS
+# =====================
+mlruns/
+mlartifacts/
+.mlflow/
+
+# =====================
+# VIRTUAL ENVIRONMENTS
+# =====================
+venv/
+env/
+valert/
+vfraud/
+.venv/
+
+# =====================
+# PYTHON
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+# =====================
+# JUPYTER NOTEBOOKS
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# OS
+# =====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =====================
+# LOGS
+# =====================
+*.log
+logs/
+
+# =====================
+# ENVIRONMENT VARIABLES
+# =====================
+.env
+.env.local
+.env.production
