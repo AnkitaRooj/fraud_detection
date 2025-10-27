@@ -24,7 +24,7 @@ def load_and_sample_data(file_path, sample_size=100000, random_state=42):
     """
     Smart data loading with sampling for large datasets
     """
-    st.info(f"Loading and sampling data... (Using {sample_size:,} samples from 8.9M rows)")
+    st.info(f"Loading and sampling data... (Using {sample_size:,} samples from 6.9M rows)")
     
     # Option 1: Load with chunks and sample
     try:
